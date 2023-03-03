@@ -69,12 +69,12 @@ $('.form-submit').on('submit',function(e){
         let profile = $('#profile').val();
         let country = $('#country').val();
 
-        $('table > tbody').append(`<tr data-name=`+ name +` data-email=`+ email +`><td>`+ name + `</td><td>`+ email +`</td><td>`+ dob +`</td><td><img src=`+ profile +`></td><td>`+ country +`</td><td><i class="fa fa-edit edit"></i><i style='margin-left:10px;' class="fa fa-trash delete"></i></td></tr>`)
+        $('table > tbody').append(`<tr data-name=`+ name +` data-email=`+ email +`><td>`+ name + `</td><td>`+ email +`</td><td>`+ dob +`</td><td>`+ country +`</td><td><i class="fa fa-edit edit"></i><i style='margin-left:10px;' class="fa fa-trash delete"></i></td></tr>`)
 
         $('#name').val('');
         $('#email').val('');
         $('#dob').val('');
-        $('#profile').val('');
+     
         $('#country').val('');
     }
 });
