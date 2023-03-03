@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --fontpoppins: 'Poppins', sans-serif;
+    --fontnunito: 'Nunito', sans-serif;
+    --maincolor: #f9c935;
+    --black: #000;
+    --white: #fff;
+    --para: #4B4B4B;
+    --border-color:#e8e8e1;
+}
+
+/* ******** Register CSS ***********  */
+section{
+    width:100%;
+    overflow:hidden;
+}
+.signup-section {
+    height: auto;
+}
+
+.signup-section .sign-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.signup-section .card .signup-btn {
+    background-color: var(--maincolor);
+    color: #000;
+    width: 100%;
+    font-family: var(--fontnunito);
+    font-weight: 700;
+    font-size: 13px;
+    border-radius: 50px;
+    letter-spacing: 1px;
+    box-shadow: 0 0 0 0 !important;
+}
+
+.signup-section .card .signup-btn:hover {
+    box-shadow: 0 !important;
+}
+
+.sign-form .place-user,
+.sign-form .place-email,
+.sign-form .place-dob,
+.sign-form .place-profile,
+.sign-form .place-country {
+    position: absolute;
+    font-family: var(--fontnunito);
+    top: -9px;
+    padding: 0 5px;
+    font-size: 12px;
+    left: 19px;
+    background-color: var(--white);
+}
+
+.sign-form .user,
+.sign-form .email,
+.sign-form .dob,
+.sign-form .profile,
+.sign-form .country
+/* .sign-form .user, */
+
+    {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.country-select{
+    width: 100%;
+}
+.country-select .country-list .country {
+    padding: 0 10px !important;
+}
+.sign-form input {
+    /* padding-top: 10px; */
+    font-family: var(--fontnunito);
+    font-size: 14px;
+    padding: 7px 10px 3px 10px;
+    /* border: 1px solid black; */
+}
+
+.sign-form .have-ac {
+    margin-top: 13px;
+    font-family: var(--fontnunito);
+    font-size: 13px;
+}
+
+.sign-form a {
+    text-decoration: none;
+}
+
+.sign-form h2 {
+    margin-bottom: 30px;
+    font-family: var(--fontpoppins);
+    font-size: 25px;
+}
+
+/* ******** End Register CSS ***********  */
+
+table{
+    border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
